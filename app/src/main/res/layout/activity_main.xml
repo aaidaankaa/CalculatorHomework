@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/FirstNumber"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/Symbol"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="number"
+           />
+
+        <EditText
+            android:id="@+id/SecondNumber"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/resultBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Результат"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp" />
+</LinearLayout>
